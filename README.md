@@ -1,33 +1,32 @@
-# HostelManager — A Console-Based Java Project for Smart Hostel Management (ISC Class 12)
+# 🏢 Facility Logistics & Management Engine
+**A pure Java CLI architecture for facility operations and resource allocation.**
 
-**HostelManager** is a feature-rich, fully console-based hostel management system written in Java, strictly within the ISC Class 12 Computer Science syllabus. Despite its simple structure, it offers smart features like a digital canteen, automated receipt generation, gender-based hostel separation, and more — making it a perfect blend of academic compliance and innovation.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-Terminal-4D4D4D?style=for-the-badge)
 
-## 🎯 Purpose
+This is a comprehensive, console-based facility management system built entirely with core Java (JDK 8+). It was engineered to demonstrate modular backend design, custom data persistence, and complex algorithmic constraints without relying on external databases or GUI frameworks.
 
-This project was developed as a Class 12 ISC Computer Science project to demonstrate object-oriented programming, file handling, and modular code design using only core Java — without any external libraries or GUI frameworks.
+---
 
-## 🌟 Key Features
+## 🚀 Core Architecture & Sub-Systems
 
-- 📋 **Student Registration**
-- 🛏️ **Room Allocation** with gender-based separation (Boys’ & Girls’ Hostels)
-- 🧾 **Automated Fee and Canteen Receipt Generator**
-- 🍽️ **Smart Canteen System** (adds food items, generates total bills)
-- 🔍 **Search Students by ID or Name**
-- 📁 **Data Storage** using text files (no database)
-- 🧹 **Console UI** with clean menus and flow
-- 💡 **Modular Code Structure** using classes and methods
+* **Algorithmic Resource Allocation:** Dynamic entity onboarding with strict, attribute-based routing constraints (e.g., automated gender-based sector separation).
+* **Integrated POS (Point of Sale):** A functioning digital canteen sub-system that tracks itemized orders and aggregates total running costs dynamically.
+* **Automated Invoice Generation:** Transactional logic that compiles entity data, room allocations, and POS totals into automated, formatted receipt outputs.
+* **Persistent State Management:** Custom File I/O architecture utilizing local `.txt` storage to maintain system state and entity records across execution cycles.
 
-## 🧑‍💻 Technologies Used
+## 🧠 Technical Implementation
 
-- **Language**: Java (Core Java, JDK 8+)
-- **Environment**: Visual Studio Code
-- **Tools Used**: Java Extension Pack in VS Code
-- **Storage**: File Handling (Text Files — `.txt`)
+- **Object-Oriented Design:** Highly modular codebase separating facility constraints, the POS engine, and file handling into distinct, manageable classes.
+- **Search & Retrieval:** Custom query functions to retrieve entity records via unique ID or string matching.
+- **Dependency-Free:** Built strictly using the Java Standard Library to ensure maximum portability and core language mastery.
 
-## 📦 How to Run
+## 🖥️ Execution Guide
 
-1. **Clone the Repository**
+### Prerequisites
+- Java JDK 8 or higher
 
+### Initialization
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HostelManager.git
-   cd HostelManager
+   git clone [https://github.com/RudraS-Chauhan/HostelManager.git](https://github.com/RudraS-Chauhan/HostelManager.git)
